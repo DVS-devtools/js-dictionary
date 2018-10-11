@@ -1,8 +1,17 @@
-## js-dictionary
+# js-dictionary
 
 Library to get Dictionary values
 
-### Example
+### Installation
+```bash
+npm install --save @docomodigital/js-dictionary
+```
+Or
+```bash
+yarn add @docomodigital/js-dictionary
+```
+
+### Usage
 ```javascript
 import Dictionary from '@docomodigital/js-dictionary';
 

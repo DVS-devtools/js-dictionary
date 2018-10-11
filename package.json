@@ -1,7 +1,7 @@
 {
-  "name": "js-dictionary",
+  "name": "@docomodigital/js-dictionary",
   "version": "0.1.0",
-  "description": "",
+  "description": "Library to get Dictionary values",
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
