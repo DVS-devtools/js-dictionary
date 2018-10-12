@@ -137,7 +137,7 @@ function () {
    * @description Initialize the Dictionary class
    * @param {Object} options (see attributes below)
    * @param {Object} [options.dict = {}] dictionary object with the required translations
-   * @params {String} [options.showKey = 'all'] flag to specify the behaviour
+   * @param {String} [options.showKey = 'all'] flag to specify the behaviour
    * when no key is found:
    * 'all' = Show always the key (debug purpose);
    * 'missing' = Show the key only if no translation is found
@@ -168,7 +168,7 @@ function () {
      * @description Search the given key,
      * return based on the showKey value
      * @see init
-     * @param key
+     * @param {String} key
      * @returns {*}
      */
 
