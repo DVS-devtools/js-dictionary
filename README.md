@@ -1,5 +1,7 @@
 # js-dictionary
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/docomodigital/js-dictionary.svg)](https://greenkeeper.io/)
+
 Library to get Dictionary values
 
 ### Usage
