@@ -1,5 +1,8 @@
 # js-dictionary
 
+[![Build Status](https://travis-ci.com/docomodigital/js-dictionary.svg?branch=master)](https://travis-ci.com/docomodigital/js-dictionary)
+[![Coverage Status](https://coveralls.io/repos/github/docomodigital/js-dictionary/badge.svg?branch=master)](https://coveralls.io/github/docomodigital/js-dictionary?branch=master)
+[![npm version](https://badge.fury.io/js/%40docomodigital%2Fjs-dictionary.svg)](https://badge.fury.io/js/%40docomodigital%2Fjs-dictionary)
 [![Greenkeeper badge](https://badges.greenkeeper.io/docomodigital/js-dictionary.svg)](https://greenkeeper.io/)
 
 Library to get Dictionary values
