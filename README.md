@@ -2,15 +2,6 @@
 
 Library to get Dictionary values
 
-### Installation
-```bash
-npm install --save @docomodigital/js-dictionary
-```
-Or
-```bash
-yarn add @docomodigital/js-dictionary
-```
-
 ### Usage
 ```javascript
 import Dictionary from '@docomodigital/js-dictionary';
@@ -28,27 +19,21 @@ Dictionary.init({
 Dictionary.get('SEARCH'); // 'Search!'
 ```
 
-### Api
 
-#### init(options: {dict: any, showKey: string})
-Initialize the Dictionary class
+## Installation
 
-Available `showKey` values: 
-* 'all' (always show the key) 
-* 'missing' (show the key when not found) 
-* false | null (never show the key)
-```javascript
-Dictionary.init({
-    dict: dictObject,
-    showKey: 'missing'
-});
+### NPM
+```bash
+npm install --save @docomodigital/js-dictionary
 ```
 
-## get(key: string)
-Search the given key, returns value based on showKey value
-```javascript
-Dictionary.get('GO_BACK');
-```
+## Documentation
 
-### list()
-Returns the entire dict object
+To read documentation, go to:
+
+[http://docomodigital.github.io/js-dictionary/latest](http://docomodigital.github.io/js-dictionary/latest)
+
+or run the following command inside the js-dictionary folder: 
+```bash
+npm run doc:open
+```
