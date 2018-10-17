@@ -5,6 +5,13 @@ var DICTIONARY = {
     KEY_2: 'Key 2'
 };
 
+describe('DICTIONARY INIT', () => {
+    it('Dictionary null options', () => {
+        Dictionary.init(null);
+        expect(Dictionary.parameters).toBeUndefined();
+    });
+});
+
 describe('DICTIONARY VALUE - missing showKey', () => {
     beforeEach(() => {
         Dictionary.init({ dict: DICTIONARY, showKey: 'missing' });
